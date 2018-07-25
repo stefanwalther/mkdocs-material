@@ -31,6 +31,9 @@ COPY package.json package.json
 COPY requirements.txt requirements.txt
 COPY setup.py setup.py
 
+# I'd like to use requirements.txt, but it actually doesn't work ...
+RUN pip install markdown-include
+
 # Perform build and cleanup artifacts
 RUN \
   apk add --no-cache \
