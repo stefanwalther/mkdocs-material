@@ -21,6 +21,10 @@
 # macOS internals
 .DS_Store
 
+# IDEs
+.idea
+.vscode
+
 # NPM-related
 /node_modules
 /npm-debug.log*
