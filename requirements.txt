@@ -22,7 +22,7 @@
 mkdocs>=0.17.1
 Pygments>=2.2
 pymdown-extensions>=4.11
-# markdown-include>=0.5.1
+markdown-include>=0.5.1
 
 # Temporary fix for build errors on Travis
 # tornado<5
